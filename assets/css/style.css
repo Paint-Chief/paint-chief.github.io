@@ -64,6 +64,8 @@ h3 {
     line-height: 30px;
     margin-bottom: 0px;
 }
+
+
 h4 {
     font-size: 20px;
     line-height: 27px;
@@ -235,7 +237,7 @@ div.spinner i:nth-child(6) {
     height: 57px;
     margin-top: -57px;
     margin-left: -57px;
-    border-color: #ca8fa1;
+    border-color: #6b6cc9;
     border-top-left-radius: 66px;
     border-top-right-radius: 66px;
 }
@@ -416,7 +418,7 @@ header.header-area.nav-fixed{
     animation-timing-function: ease-in-out;
     box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.75);
     background-image: none;
-    background: #ca8fa1;
+    background: #6b6cc9;
 }
 header.header-area {
     position: absolute;
@@ -440,7 +442,7 @@ ul.dropdown-menu {
     padding: 0;
     color: #fff;
     border-radius: inherit;
-    background-color: #ca8fa1;
+    background-color: #6b6cc9;
     border-bottom-right-radius: 16px;
 }
 ul.dropdown-menu .dropdown-item a{
@@ -450,7 +452,7 @@ ul.dropdown-menu .dropdown-item:last-child{
     border-bottom-right-radius: 16px;
 }
 ul.dropdown-menu .dropdown-item:hover {
-    background-color: #FDB3C9;
+    background-color: #383996;
     color: #000000;
 }
 ul.dropdown-menu .dropdown-item a:hover{
@@ -477,7 +479,7 @@ ul.dropdown-menu .dropdown-item a:hover{
     font-weight: 600;
 }
 .close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover{
-    color: #ca8fa1;
+    color: #6b6cc9;
     opacity: 1;
 }
 .modal-content.e-m-contents {
@@ -620,7 +622,7 @@ button.btn-block.ebtn {
     font-weight: 600;
     font-size: 16px;
     font-family: 'Arvo', serif;
-    background-color: #FDB3C9;
+    background-color: #383996;
     cursor: pointer;
 }
 button.btn-block.ebtn-r {
@@ -629,12 +631,12 @@ button.btn-block.ebtn-r {
     font-weight: 600;
     font-size: 16px;
     font-family: 'Arvo', serif;
-    background-color: #ca8fa1;
+    background-color: #6b6cc9;
     cursor: pointer;
 }
 .btn-contact{
     -webkit-mask: url(../images/li.svg) no-repeat;
-    background-color: #FDB3C9;
+    background-color: #383996;
     width: 200px;
     margin: 0px auto;
     transition: .1s ease;
@@ -652,7 +654,7 @@ button.btn-block.ebtn-r {
     width: 0;
     top: 0;
     left: 0;
-    background-color: #ca8fa1;
+    background-color: #6b6cc9;
     transition: .9s ease;
 }
 .btn-contact:hover:after{
@@ -671,7 +673,7 @@ button.btn-block.ebtn-r {
 }
 .btn-learn{
     -webkit-mask: url(../images/li.svg) no-repeat;
-    background-color: #FDB3C9;
+    background-color: #383996;
     width: 200px;
     transition: .1s ease;
     padding: 50px 0px;
@@ -720,7 +722,8 @@ button.btn-block.ebtn-r {
     height: auto;
     transition: .1s ease;
     overflow: hidden;
-    background: #FDB3C9;
+    background: #383996;
+    color: beige;
 }
 .ss-2{
     width: 100%;
@@ -730,7 +733,8 @@ button.btn-block.ebtn-r {
     overflow: hidden;
     padding: 32px 33px;
     height: auto;
-    background: #ca8fa1;
+    background: #6b6cc9;
+    color: black;
 }
 .ficon-bg-1:before {
     font-size: 386px;
@@ -821,7 +825,7 @@ button.btn-block.ebtn-r {
     overflow: hidden;
     position: relative;
     z-index: 1;
-    background: #ca8fa1;
+    background: #6b6cc9;
 }
 .au-tittle h2{
     width: 65%;
@@ -888,7 +892,8 @@ button.btn-block.ebtn-r {
     left: 20px;
 }
 .prj-1-content{
-    background: #FDB3C9;
+    background: #6b6cc9;
+    /* color: white; */
     text-align: left;
     z-index: 1;
     padding: 30px;
@@ -906,7 +911,7 @@ button.btn-block.ebtn-r {
     left: 0px;
 }
 .prj-four{
-    background: #FDB3C9;
+    background: #6b6cc9;
     text-align: left;
     z-index: 1;
     padding: 50px;
@@ -928,7 +933,7 @@ button.btn-block.ebtn-r {
     left: 0px;
 }
 .prj-five{
-    background: #FDB3C9;
+    background: #6b6cc9;
     text-align: left;
     z-index: 1;
     padding: 40px;
@@ -1180,7 +1185,7 @@ button.btn-block.ebtn-r {
     width: 0;
     left: 0;
     top: 0;
-    background: #ca8fa1;
+    background: #6b6cc9;
     transition: .1s ease;
     z-index: -1;
 }
@@ -1211,7 +1216,7 @@ span.learn-li {
 }
 .btn-learn-2{
     -webkit-mask: url(../images/li.svg) no-repeat;
-    background-color: #FDB3C9;
+    background-color: #383996;
     width: 200px;
     transition: .1s ease;
     padding: 50px 0px;
@@ -1383,7 +1388,7 @@ section.footer-nav {
 }
 span#basic-addon2 {
     font-family: 'Arvo', serif;
-    background-color: #ca8fa1;
+    background-color: #6b6cc9;
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
@@ -1423,7 +1428,7 @@ ul.sicon-frist li:first-child{
     margin: 0px;
 }
 .sicon:hover{
-    background: #FDB3C9;
+    background: #383996;
     color: #0d0d0d;
 }
 .about-company a{
@@ -1448,7 +1453,7 @@ footer{
 }
 input.form-control.sp-in {
     background-color: #f4d652;
-    border-color: #ca8fa1;
+    border-color: #6b6cc9;
     outline-style: none;
     box-shadow: none;
 }
@@ -1473,7 +1478,7 @@ header.header2 {
 }
 .header2-nav {
     padding: 1px 15px;
-    background: #ca8fa1;
+    background: #6b6cc9;
 }
 .header2-nav .navbar-brand{
     width: 80px;
@@ -1901,7 +1906,7 @@ section.our-service {
 /* End Video */
 /* 4.3 our service nav */
 .ss-bg-2{
-    background: #ca8fa1;
+    background: #6b6cc9;
 }
 section.our-snav-item {
     padding-top: 80px;
@@ -2003,7 +2008,7 @@ button#pause-button {
     top: -100px;
 }
 .paint-about {
-    background: #FDB3C9;
+    background: #383996;
     padding: 40px;
     width: 142%;
     position: relative;
@@ -2030,7 +2035,7 @@ section.wall-p-content {
     font-weight: 600;
 }
 .w-p-text {
-    background: #FDB3C9;
+    background: #383996;
     padding: 30px;
 }
 /* End W-p Text */
@@ -2063,7 +2068,7 @@ section.well-painting-service {
 .wp-services {
     width: 75%;
     padding: 40px;
-    background: #FDB3C9;
+    background: #383996;
 }
 .wp-services ul {
     padding: 0;
@@ -2163,7 +2168,7 @@ section.About-team {
     height: 70px;
     width: 20%;
     float: left;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .expart {
     padding-top: 20px;
@@ -2212,7 +2217,7 @@ section.care-about {
     right: 3%;
     bottom: -3%;
     position: absolute;
-    background: #FDB3C9;
+    background: #383996;
 }
 .c-a-image::after{
     content: '';
@@ -2222,7 +2227,7 @@ section.care-about {
     left: -18%;
     top: 3%;
     position: absolute;
-    background: #FDB3C9;
+    background: #383996;
 }
 .c-a-content {
     padding: 50px 0px 10px;
@@ -2255,7 +2260,7 @@ section.care-about {
     top: 58px;
     z-index: -1;
     height: 20px;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .cap-2::after{
     position: absolute;
@@ -2265,7 +2270,7 @@ section.care-about {
     top: 59px;
     z-index: -1;
     height: 20px;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .cap-3::after{
     position: absolute;
@@ -2275,7 +2280,7 @@ section.care-about {
     right: 26%;
     z-index: -1;
     height: 20px;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .cap-1::before{
     position: absolute;
@@ -2283,7 +2288,7 @@ section.care-about {
     width: 56%;
     z-index: -1;
     height: 100px;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .cap-2 {
     left: 20px;
@@ -2410,7 +2415,7 @@ section.our-team {
     content: '';
     padding: 50px 46px;
     z-index: -1;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .acap-1::after {
     position: absolute;
@@ -2419,7 +2424,7 @@ section.our-team {
     top: 58px;
     z-index: -1;
     padding: 12px 10px;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .acap-2::after {
     position: absolute;
@@ -2428,7 +2433,7 @@ section.our-team {
     top: 58px;
     z-index: -1;
     padding: 12px 10px;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .acap-3::after {
     position: absolute;
@@ -2438,7 +2443,7 @@ section.our-team {
     bottom: 19px;
     z-index: -1;
     padding: 12px 10px;
-    background-color: #FDB3C9;
+    background-color: #383996;
 }
 .acap-1 p {
     font-weight: 600;
@@ -2807,12 +2812,12 @@ section.contact-us {
 .message-box input.form-control:focus {
     box-shadow: none;
     outline-style: none;
-    border-color: #ca8fa1;
+    border-color: #6b6cc9;
 }
 .message-box textarea.form-control:focus {
     box-shadow: none;
     outline-style: none;
-    border-color: #ca8fa1;
+    border-color: #6b6cc9;
 }
 .message-box button.btn.btn-dark {
     padding: 10px 33px;
@@ -2875,7 +2880,7 @@ section.contact-us {
     width: 200px;
 }
 .btn-404{
-    background-color: #ca8fa1;
+    background-color: #6b6cc9;
     margin-bottom: -42px;
 }
 .error-btn::after{
@@ -2929,7 +2934,7 @@ ul.sicon-frist {
     display: inline-block;
 }
 .csicon:hover{
-    background-color: #ca8fa1;
+    background-color: #6b6cc9;
 }
 .csicon{
     color: #bac4d4;
@@ -2957,7 +2962,7 @@ ul.sicon-frist {
 .search-box input:focus{
     outline-style: inherit;
     box-shadow: none;
-    border-color: #ca8fa1;
+    border-color: #6b6cc9;
 }
 .sidebar-widget {
     position: relative;
@@ -3174,7 +3179,7 @@ ul.blg-teg li a:hover{
 .cb-input:focus{
     outline-style: none;
     box-shadow: none;
-    border-color: #ca8fa1;
+    border-color: #6b6cc9;
 }
 button.ccs-btn {
     background-color: #1c1a1a;
