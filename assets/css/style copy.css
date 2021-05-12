@@ -458,7 +458,7 @@ ul.dropdown-menu .dropdown-item:last-child{
     border-bottom-right-radius: 16px;
 }
 ul.dropdown-menu .dropdown-item:hover {
-    background-color: #def2f1;
+    background-color: black;
     color: #000000;
 }
 ul.dropdown-menu .dropdown-item a:hover{
@@ -628,7 +628,7 @@ button.btn-block.ebtn {
     font-weight: 600;
     font-size: 16px;
     font-family: 'Arvo', serif;
-    background-color: #def2f1;
+    background-color: black;
     cursor: pointer;
 }
 button.btn-block.ebtn-r {
@@ -642,7 +642,7 @@ button.btn-block.ebtn-r {
 }
 .btn-contact{
     -webkit-mask: url(../images/li.svg) no-repeat;
-    background-color: #3AAFA9;
+    background-color: black;
     width: 200px;
     margin: 0px auto;
     transition: .1s ease;
@@ -650,7 +650,7 @@ button.btn-block.ebtn-r {
     position: relative;
 }
 .btn-contact:hover a {
-    color: black;
+    color: #fff;
 }
 .btn-contact::after {
     content: '';
@@ -679,14 +679,13 @@ button.btn-block.ebtn-r {
 }
 .btn-learn{
     -webkit-mask: url(../images/li.svg) no-repeat;
-    background-color: #3aafa9;
+    background-color: black;
     width: 200px;
     transition: .1s ease;
     padding: 50px 0px;
     overflow: hidden;
     left: -17px;
     position: relative;
-    color: black;
 }
 .btn-learn::after {
     position: absolute;
@@ -697,7 +696,7 @@ button.btn-block.ebtn-r {
     top: 0;
     left: 0;
     background-size: cover;
-    background-color: white;
+    background-color: #ebebeb;
     transition: .9s ease;
 }
 .btn-learn:hover::after{
@@ -742,8 +741,8 @@ button.btn-block.ebtn-r {
     height: auto;
     transition: .1s ease;
     overflow: hidden;
-    background: #def2f1;
-    color: gray;
+    background: black;
+    color: beige;
 }
 .ss-2{
     width: 100%;
@@ -830,8 +829,7 @@ button.btn-block.ebtn-r {
 /* End Service*/
 /*2.4 About-us */
 .about-us{
-    /* background-image: url(../images/project/about.png); */
-    background: #def2f1;
+    background-image: url(../images/project/about.png);
     width: 100%;
     padding: 50px 50px;
     overflow: hidden;
@@ -912,7 +910,7 @@ button.btn-block.ebtn-r {
     left: 20px;
 }
 .prj-1-content{
-    background: #def2f1;
+    background: white;
     /* color: white; */
     text-align: left;
     z-index: 1;
@@ -1081,8 +1079,7 @@ button.btn-block.ebtn-r {
 /* End Completed-project*/
 /* 2.6 Client Feedback*/
 .client-feedback{
-    /* background-image: url(../images/client-bg.png); */
-    background: #def2f1;
+    background-image: url(../images/client-bg.png);
     background-size: cover;
     text-align: center;
     background-repeat: no-repeat;
@@ -1237,7 +1234,7 @@ span.learn-li {
 }
 .btn-learn-2{
     -webkit-mask: url(../images/li.svg) no-repeat;
-    background-color: #def2f1;
+    background-color: black;
     width: 200px;
     transition: .1s ease;
     padding: 50px 0px;
@@ -1316,8 +1313,7 @@ span.learn-li {
     width: 100%;
 }
 .project-ask{
-    /* background:url(../images/proj-ask.png); */
-    background: #def2f1;
+    background:url(../images/proj-ask.png);
     width: 100%;
     text-align: center;
     overflow: hidden;
@@ -1450,7 +1446,7 @@ ul.sicon-frist li:first-child{
     margin: 0px;
 }
 .sicon:hover{
-    background: #def2f1;
+    background: black;
     color: #0d0d0d;
 }
 .about-company a{
@@ -2030,7 +2026,7 @@ button#pause-button {
     top: -100px;
 }
 .paint-about {
-    background: #def2f1;
+    background: black;
     padding: 40px;
     width: 142%;
     position: relative;
@@ -2057,7 +2053,7 @@ section.wall-p-content {
     font-weight: 600;
 }
 .w-p-text {
-    background: #def2f1;
+    background: black;
     padding: 30px;
 }
 /* End W-p Text */
@@ -2090,7 +2086,7 @@ section.well-painting-service {
 .wp-services {
     width: 75%;
     padding: 40px;
-    background: #def2f1;
+    background: black;
 }
 .wp-services ul {
     padding: 0;
@@ -2190,7 +2186,7 @@ section.About-team {
     height: 70px;
     width: 20%;
     float: left;
-    background-color: #def2f1;
+    background-color: black;
 }
 .expart {
     padding-top: 20px;
@@ -2239,7 +2235,7 @@ section.care-about {
     right: 3%;
     bottom: -3%;
     position: absolute;
-    background: #def2f1;
+    background: black;
 }
 .c-a-image::after{
     content: '';
@@ -2249,7 +2245,7 @@ section.care-about {
     left: -18%;
     top: 3%;
     position: absolute;
-    background: #def2f1;
+    background: black;
 }
 .c-a-content {
     padding: 50px 0px 10px;
@@ -2282,7 +2278,7 @@ section.care-about {
     top: 58px;
     z-index: -1;
     height: 20px;
-    background-color: #def2f1;
+    background-color: black;
 }
 .cap-2::after{
     position: absolute;
@@ -2292,7 +2288,7 @@ section.care-about {
     top: 59px;
     z-index: -1;
     height: 20px;
-    background-color: #def2f1;
+    background-color: black;
 }
 .cap-3::after{
     position: absolute;
@@ -2302,7 +2298,7 @@ section.care-about {
     right: 26%;
     z-index: -1;
     height: 20px;
-    background-color: #def2f1;
+    background-color: black;
 }
 .cap-1::before{
     position: absolute;
@@ -2310,7 +2306,7 @@ section.care-about {
     width: 56%;
     z-index: -1;
     height: 100px;
-    background-color: #def2f1;
+    background-color: black;
 }
 .cap-2 {
     left: 20px;
@@ -2437,7 +2433,7 @@ section.our-team {
     content: '';
     padding: 50px 46px;
     z-index: -1;
-    background-color: #def2f1;
+    background-color: black;
 }
 .acap-1::after {
     position: absolute;
@@ -2446,7 +2442,7 @@ section.our-team {
     top: 58px;
     z-index: -1;
     padding: 12px 10px;
-    background-color: #def2f1;
+    background-color: black;
 }
 .acap-2::after {
     position: absolute;
@@ -2455,7 +2451,7 @@ section.our-team {
     top: 58px;
     z-index: -1;
     padding: 12px 10px;
-    background-color: #def2f1;
+    background-color: black;
 }
 .acap-3::after {
     position: absolute;
@@ -2465,7 +2461,7 @@ section.our-team {
     bottom: 19px;
     z-index: -1;
     padding: 12px 10px;
-    background-color: #def2f1;
+    background-color: black;
 }
 .acap-1 p {
     font-weight: 600;
