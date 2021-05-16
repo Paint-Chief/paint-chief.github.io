@@ -22,11 +22,6 @@
     .about h2 {
         width: 68%;
     }
-    .hero-content h1 {
-        width: 60%;
-        font-size: 29px;
-        padding-top: 180px;
-    }
     .hero-content p {
         width: 60%;
     }
@@ -325,12 +320,6 @@
     }
     .ss-content h3 {
         font-size: 13px;
-    }
-    .hero-content h1 {
-        width: 75%;
-        font-size: 27px;
-        line-height: 40px;
-        padding-top: 70px;
     }
     .single-service {
         padding: 20px;
@@ -843,11 +832,7 @@ ul.navbar-nav::-webkit-scrollbar {
     .au-tittle p:first-child {
         text-align: center;
     }
-    .hero-content h1 {
-        font-size: 18px;
-        line-height: 25px;
-        padding-top: 70px;
-    }
+    
     section.footer-nav {
         padding: 40px 0px;
      
@@ -1326,9 +1311,7 @@ ul.navbar-nav::-webkit-scrollbar {
 /*Extra small devices (portrait phones, less than 576px)*/
 @media only screen and (max-width: 575px) {
 
-    .hero-content h1 {
-        font-size: 22px;
-    }
+
     .about h2 {
         font-size: 28px;
         width: 100%;
@@ -1468,9 +1451,6 @@ ul.navbar-nav::-webkit-scrollbar {
   /*Extra small devices (portrait phones, less than 475px)*/
 @media only screen and (max-width: 475px) {
 
-    .hero-content h1 {
-        font-size: 16px;
-    }
     .hero-content {
         margin-bottom: 145px;
     }
