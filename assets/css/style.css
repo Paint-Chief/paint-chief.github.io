@@ -649,6 +649,7 @@ button.btn-block.ebtn-r {
     transition: .1s ease;
     padding: 50px 0px;
     position: relative;
+    color: white;
 }
 .btn-contact:hover a {
     color: black;
@@ -677,6 +678,10 @@ button.btn-block.ebtn-r {
     top: 0;
     z-index: 1;
     font-weight: 600;
+}
+
+.con-btn a{
+    color: white;
 }
 
 #spin {
@@ -1303,6 +1308,10 @@ span.learn-li {
     top: 0;
     z-index: 1;
     font-weight: 600;
+}
+
+.learn-ab a{
+    color: white;
 }
 .blog-two img{
     width: 109%;
