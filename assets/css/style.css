@@ -711,15 +711,18 @@ html,body {
     margin: 0.4em 0;
   }
   .txt-rotate {
+      height: min-content;
+      overflow-y:hidden;
       color: #002858;
+      /* min-width: 500px; */
   }
   .hero-content h1 { 
-      font-size: 3vw; 
+      font-size: 3em; 
     }
 
   .hero-content h2 {
     color: #888;
-    font-size: 1.5vw;
+    font-size: 2em;
   }
 
 .btn-learn{
@@ -769,6 +772,14 @@ html,body {
     /* overflow: hidden;
     text-align: center;
     position: relative; */
+    /* align-items: center; */
+    /* background-color: #afd275; */
+    
+    /* display: flex; */
+    /* height: 200px; */
+    /* justify-content: center; */
+    /* margin-right: 4rem; */
+    /* width: 200px; */
 }
 .single-service:hover{
     webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
@@ -800,6 +811,17 @@ html,body {
     height: auto;
     background: white;
     color: black;
+    box-shadow: 
+        6px 6px 8px 0 rgba(0, 0, 0, 0.25),
+        -4px -4px 6px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.ss-1{
+    box-shadow: 
+        6px 6px 8px 0 rgba(0, 0, 0, 0.25),
+        -4px -4px 6px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
 }
 .ficon-bg-1:before {
     font-size: 386px;
