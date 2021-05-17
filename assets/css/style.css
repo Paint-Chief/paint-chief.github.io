@@ -644,7 +644,7 @@ button.btn-block.ebtn-r {
 .btn-contact{
     -webkit-mask: url(../images/li.svg) no-repeat;
     background-color: #002858;
-    width: 200px;
+    width: 20;
     margin: 0px auto;
     transition: .1s ease;
     padding: 50px 0px;
@@ -755,7 +755,7 @@ html,body {
 
 .service-area-about-us{
     background-repeat: no-repeat;
-    background-image: url(../images/hero1.png);
+    /* background-image: url(../images/hero1.png); */
     width: 100%;
     background-size: cover;
 }
@@ -874,9 +874,21 @@ html,body {
 }
 /* End Service*/
 /*2.4 About-us */
-.about-us{
-    /* background-image: url(../images/project/about.png); */
+
+.about-us-for-businesses{
+    background-image: url(../images/project/about.png);
     background: #def2f1;
+    width: 100%;
+    padding: 50px 50px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us-for-painters{
+    background-image: url(../images/project/about.png);
+    background: white;
     width: 100%;
     padding: 50px 50px;
     overflow: hidden;
@@ -892,6 +904,16 @@ html,body {
     z-index: 1;
     background: white;
 }
+
+.painters{
+    width: 100%;
+    padding: 50px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: #def2f1;
+}
+
 .au-tittle h2{
     width: 65%;
     font-weight: bold;
