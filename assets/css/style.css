@@ -1940,17 +1940,29 @@ section.updates {
 /*---------------------------------------------*/
 /* 4.1 service-area */
 .service-area{
+    background-repeat: no-repeat;
+    /* background-image: url(../images/interior-of-a-new-house-with-paint-can-and-half-painted-wall-free-photo.webp); */
+    width: 100%;
+    /* background-size: cover; */
+    background: #def2f1;
+    overflow: hidden;
     text-align: center;
     position: relative;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-image: -moz-linear-gradient( -18deg, rgb(255,210,80) 0%, rgb(250,173,36) 100%);
-    background-image: -webkit-linear-gradient( -18deg, rgb(255,210,80) 0%, rgb(250,173,36) 100%);
-    background-image: -ms-linear-gradient( -18deg, rgb(255,210,80) 0%, rgb(250,173,36) 100%);
 }
+
+.services{
+    background-repeat: no-repeat;
+    /* background-image: url(../images/interior-of-a-new-house-with-paint-can-and-half-painted-wall-free-photo.webp); */
+    width: 100%;
+    /* background-size: cover; */
+    background: #def2f1;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    
+}
+
+
 .service-area h1{
     padding: 250px 0px 130px 0px;
     text-align: center;
@@ -2260,7 +2272,9 @@ section.About-team {
 /* 7.2 Our-Experience */
 .our-experience{
     padding: 100px 0px;
-    background-image: url(../images/our-eperience.png);
+    /* background-image: url(../images/our-eperience.png);
+     */
+    background: #def2f1;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -2852,7 +2866,7 @@ section.contact-us {
     padding: 100px 0px;
 }
 .single-contact{
-    background-color: #ffe368;
+    background-color: #def2f1;
     position: relative;
     height: auto;
     padding: 50px 0px;
